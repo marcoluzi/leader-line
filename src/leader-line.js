@@ -1110,7 +1110,7 @@
       svg.style.visibility = 'hidden';
     }
 
-    baseDocument.body.appendChild(svg);
+    baseDocument.querySelector('main').appendChild(svg);
 
     // label (after appendChild(svg), bBox is used)
     [0, 1, 2].forEach(function(i) {
